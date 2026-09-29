@@ -154,6 +154,10 @@ const testimonials = [
   name: "Kaila Rutz",
   text: "Awesome staff and management. Trustworthy and honest.",
 },
+{
+  name: "Pamela Bonduran",
+  text: "Exceptional service from the owner and her employees. I contacted them for a monthly clean for my home in Fountain and we also did a deep cleaning. The house looked and felt so fresh after. They went above and beyond to make some appliances and bathrooms look like new. Highly recommend this business.",
+},
 ];
 
 const TestimonialsSection = () => {

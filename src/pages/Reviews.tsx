@@ -209,15 +209,23 @@ const reviews = [
   verified: false,
   badges: [],
 },
-{
-  id: 26,
-  name: "Jackie R.",
-  date: "March 9",
-  content: "Rebecca was wonderful to work with. She took the time to listen and truly understood what I needed. We came up with a plan and worked together. She has excellent communication and organization skills, gave great recommendations, and even helped hang artwork. I highly recommend her for refreshing your home and giving you peace of mind!",
-  rating: 5,
-  verified: true,
-  badges: ["Verified Customer", "Premium Service"],
-},
+  {
+    id: 26,
+    name: "Jackie R.",
+    date: "March 9",
+    content: "Rebecca was wonderful to work with. She took the time to listen and truly understood what I needed. We came up with a plan and worked together. She has excellent communication and organization skills, gave great recommendations, and even helped hang artwork. I highly recommend her for refreshing your home and giving you peace of mind!",
+    rating: 5,
+    verified: true,
+    badges: ["Verified Customer", "Premium Service"],
+  },
+  {
+    id: 27,
+    name: "Pamela Bonduran",
+    content: "Exceptional service from the owner and her employees. I contacted them for a monthly clean for my home in Fountain and we also did a deep cleaning. The house looked and felt so fresh after. They went above and beyond to make some appliances and bathrooms look like new. Highly recommend this business.",
+    rating: 5,
+    verified: true,
+    badges: ["Verified Customer", "Deep Cleaning", "Monthly Service"],
+  },
 ];
 
 const Reviews = () => {
@@ -236,7 +244,7 @@ const Reviews = () => {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
-      "reviewCount": "26"
+      "reviewCount": "27"
     }
   };
 
